@@ -8,5 +8,6 @@ iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
 
 service dnsmasq restart
 service hostapd restart
+service ajenti  restart
 
 banner router started
